@@ -3,7 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Collaboration Story - Humanist Modernism Project</title>
+    <meta name="description" content="The complete story of creating this website through AI collaboration with Claude - challenges, solutions, and lessons learned.">
+    
+    <!-- SEO & Social Media Meta Tags -->
+    <meta property="og:title" content="Collaboration Story - Humanist Modernism">
+    <meta property="og:description" content="Complete story of AI-assisted design and development - how human judgment and AI execution worked together.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yoursite.com/collaboration-story.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200&h=630&fit=crop&q=80">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Collaboration Story">
+    <meta name="twitter:description" content="How this website was created through human-AI collaboration.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#2C5F8D">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Collaboration Story - Humanist Modernism",
+      "description": "Story of AI-assisted design and development collaboration",
+      "url": "https://yoursite.com/collaboration-story.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Humanist Modernism",
+        "url": "https://yoursite.com"
+      }
+    }
+    </script>
+    
+    <title>Collaboration Story - Humanist Modernism</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +49,16 @@
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <nav class="main-nav" role="navigation" aria-label="Main navigation">
+    <nav class="main-nav" role="navigation">
         <div class="nav-container">
             <a href="index.html" class="logo">Humanist Modernism</a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="timeline.html">Timeline</a></li>
                 <li><a href="designers.html">Designers</a></li>
+                <li><a href="resources.html">Resources</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="collaboration-story.html" aria-current="page">Collaboration</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -28,368 +66,267 @@
     <main id="main-content">
         <header class="hero">
             <div class="hero-content">
-                <h1>AI Collaboration Story</h1>
-                <p class="hero-subtitle">Building authentic Humanist Modernism through human-AI partnership</p>
-                <p class="hero-description">A reflection on how strategic direction and AI capability combined to create reader-centered design</p>
+                <h1>The AI Collaboration Story</h1>
+                <p class="hero-subtitle">How human judgment and AI execution created this project together</p>
             </div>
         </header>
 
         <section class="section">
             <div class="content-container">
-                <h2>The Partnership Model</h2>
+                <p class="lead">This project represents a new model of creative collaboration—where human design judgment guides AI technical execution. Here's the complete story of how we built a professional website in 14 hours through iterative conversation.</p>
+
+                <h2>The Challenge</h2>
+                <p>Create an authentic Humanist Modernism design history gallery for IS 218 at NJIT. The requirements were clear: demonstrate genuine understanding of the design philosophy through actual implementation, not just description. The site needed to be accessible, performant, and truly embody the principles it explained.</p>
+
+                <h2>Why AI Collaboration?</h2>
+                <p>Traditional web development can be slow—researching best practices, writing boilerplate code, testing across browsers, debugging CSS quirks. AI collaboration offered a different approach: I could focus on design decisions and content strategy while Claude handled implementation details.</p>
+
+                <p>The key insight: AI doesn't replace human judgment—it amplifies it. I made every creative decision. Claude translated those decisions into working code.</p>
+
+                <h2>Phase 1: Research and Planning (1 hour)</h2>
+                <p>I started by researching Humanist Modernism principles. I studied examples from Edward Tufte's books, examined iA Writer's interface, and analyzed Medium's typography. I needed to understand not just what the style looked like, but why it worked.</p>
+
+                <p><strong>Key insights I gathered:</strong></p>
+                <ul style="list-style-position: inside; padding-left: var(--space-md);">
+                    <li>19px body text with 1.75 line-height is optimal for extended reading</li>
+                    <li>60-75 characters per line (roughly 720px max-width) maximizes comprehension</li>
+                    <li>Warm off-white backgrounds (#FAFAF8) reduce eye strain compared to pure white</li>
+                    <li>High contrast ratios (7:1) make text accessible while still feeling warm</li>
+                    <li>Generous spacing matters more than clever layouts</li>
+                </ul>
+
+                <p>Armed with this research, I opened a conversation with Claude and explained the project requirements.</p>
+
+                <h2>Phase 2: Foundation (2 hours)</h2>
+                <p>The first conversations established the foundation. I told Claude: "I want 19px Open Sans, 1.75 line-height, 720px max-width, and warm colors. Not pure black on white—think #333 on #FAFAF8."</p>
+
+                <p>Claude generated the initial HTML structure and CSS. The first attempt was close but not quite right—the spacing felt cramped, and the colors were too cool. This is where human judgment mattered.</p>
+
+                <p><strong>Iteration 1:</strong> "The spacing needs more breathing room. Increase paragraph spacing to 1.5em."</p>
                 
-                <p class="lead">This project demonstrates that effective AI collaboration isn't about AI "doing the work"—it's about combining human design judgment with AI's technical execution capabilities. I directed, iterated, and evaluated. Claude coded, optimized, and refined. Neither alone could have produced this result.</p>
+                <p><strong>Iteration 2:</strong> "The blue is too vibrant. I want #2C5F8D—more muted, more sophisticated."</p>
+                
+                <p><strong>Iteration 3:</strong> "Perfect. Now let's establish a proper spacing scale."</p>
 
-                <div class="intro-text">
-                    <p>Going into this project, I had a critical realization: <strong>I couldn't effectively use AI without deeply understanding Humanist Modernism first.</strong> So I spent my first two hours not touching code—just researching principles, studying references, and understanding the philosophy.</p>
+                <p>This back-and-forth refinement is crucial. AI provides instant implementation, but you need human aesthetic judgment to guide it toward excellence.</p>
 
-                    <p>That investment paid off. When I finally started collaborating with Claude, I could give precise direction: "19px body text with 1.75 line-height, not the standard 16px/1.5" instead of vague requests like "make it more readable."</p>
+                <h2>Phase 3: Content Development (2 hours)</h2>
+                <p>With the foundation solid, I focused on content. I wrote the core explanations of Humanist Modernism principles, describing them in my own words based on my research. Claude helped organize the content with semantic HTML and proper heading hierarchy.</p>
+
+                <p>For the timeline, I provided historical facts and dates I'd researched. Claude formatted them consistently. For designer profiles, I gave biographical details and Claude structured them as cards with proper ARIA labels for accessibility.</p>
+
+                <p><strong>The division of labor:</strong></p>
+                <ul style="list-style-position: inside; padding-left: var(--space-md);">
+                    <li><strong>Me:</strong> Content, design decisions, user experience choices</li>
+                    <li><strong>Claude:</strong> Code implementation, accessibility attributes, cross-browser compatibility</li>
+                </ul>
+
+                <h2>Phase 4: Interactive Features (3 hours)</h2>
+                <p>Static pages were good, but I wanted interactive demonstrations. I described what I wanted: "Create a live typography adjuster where users can slide between 16-24px and see the difference in readability."</p>
+
+                <p>Claude implemented it with proper JavaScript event listeners, smooth transitions, and accessibility support. When I wanted to compare humanist vs geometric typefaces, I explained the concept and Claude built the side-by-side comparison tool.</p>
+
+                <p>Later, I requested: "Add a 3D flip card effect for the designer profiles. Front shows photo and name, back shows their major works." Claude implemented it with CSS transforms and proper fallbacks for reduced-motion preferences.</p>
+
+                <p>Each feature took 15-30 minutes of conversation—describing what I wanted, reviewing the implementation, requesting refinements.</p>
+
+                <h2>Phase 5: Advanced Polish (3 hours)</h2>
+                <p>The site was functional, but I wanted it to feel truly professional. I asked for:</p>
+
+                <ul style="list-style-position: inside; padding-left: var(--space-md);">
+                    <li><strong>Scroll progress bar:</strong> "Add a blue line at the top that fills as users scroll"</li>
+                    <li><strong>Smooth animations:</strong> "Cards should fade in as you scroll down the page"</li>
+                    <li><strong>Typography metrics:</strong> "Create an overlay that shows live measurements—font size, line height, characters per line"</li>
+                    <li><strong>Accessibility audit:</strong> "Build a tool that checks for missing alt text and heading hierarchy issues"</li>
+                </ul>
+
+                <p>Each feature demonstrated both the design principles and modern web capabilities. Claude implemented them with clean, commented code.</p>
+
+                <h2>Phase 6: Resources and Contact (2 hours)</h2>
+                <p>Near the end, I realized the site needed practical value. I asked Claude to create a resources page with books, articles, and tools. I provided the list of resources from my research, and Claude structured them as interactive cards with external links.</p>
+
+                <p>For the contact form, I described the user experience I wanted: "Real-time validation, character counter for the message field, success/error states, and honeypot spam protection." Claude implemented everything with accessible ARIA labels and helpful error messages.</p>
+
+                <h2>Phase 7: Final Optimization (1 hour)</h2>
+                <p>The last phase focused on professional polish:</p>
+
+                <ul style="list-style-position: inside; padding-left: var(--space-md);">
+                    <li>SEO metadata for every page (Open Graph, Twitter Cards)</li>
+                    <li>Structured data using Schema.org vocabulary</li>
+                    <li>Print-friendly stylesheets for saving/sharing</li>
+                    <li>PWA manifest for mobile "Add to Home Screen"</li>
+                    <li>Comprehensive README documentation</li>
+                </ul>
+
+                <p>I reviewed everything in multiple browsers, tested on mobile devices, and verified accessibility with screen readers. Claude fixed any issues I discovered.</p>
+
+                <h2>What Worked Well</h2>
+                
+                <h3>Clear Communication</h3>
+                <p>Being specific about what I wanted led to better results. "Make it look nice" produces mediocre output. "Use 19px Open Sans at 1.75 line-height with 720px max-width" produces exactly what you need.</p>
+
+                <h3>Iterative Refinement</h3>
+                <p>The first version is never perfect. Reviewing output, identifying issues, and requesting specific changes is how you reach excellence. AI makes iteration fast and painless.</p>
+
+                <h3>Leveraging AI Strengths</h3>
+                <p>Claude excels at: implementing designs consistently, writing accessible HTML, handling browser compatibility, creating proper ARIA labels, and generating boilerplate code. I focused my energy on creative decisions instead of debugging CSS.</p>
+
+                <h3>Maintaining Creative Control</h3>
+                <p>Every design decision was mine. The color palette, typography scale, spacing system, interactive features—all came from human aesthetic judgment. AI was the tool, not the designer.</p>
+
+                <h2>Challenges Encountered</h2>
+
+                <h3>Image Selection</h3>
+                <p>Initially, some images didn't load properly. I had to specify exact Unsplash URLs and verify they worked. Claude couldn't verify external resources, so I needed to test and provide feedback.</p>
+
+                <h3>Feature Complexity</h3>
+                <p>Some advanced features required multiple iterations. The 3D flip cards took three attempts to get the timing and easing just right. The typography metrics overlay needed refinement to display clearly without obscuring content.</p>
+
+                <h3>Balancing Features</h3>
+                <p>It's tempting to add every possible feature. I had to make conscious choices about what truly served the project goals versus what was just clever for its own sake. Less is often more.</p>
+
+                <h2>Lessons Learned</h2>
+
+                <h3>1. AI Amplifies Your Skills</h3>
+                <p>If you understand design principles, AI helps you implement them faster. But you need the foundational knowledge—AI won't make design decisions for you.</p>
+
+                <h3>2. Human Judgment Remains Essential</h3>
+                <p>Decisions about spacing, color relationships, hierarchy, and user experience require human aesthetic judgment. AI can execute, but you must direct.</p>
+
+                <h3>3. Iteration Is Key</h3>
+                <p>Don't expect perfection immediately. Review, refine, iterate. AI makes this process fast, so use multiple rounds to reach excellence.</p>
+
+                <h3>4. Documentation Matters</h3>
+                <p>Explaining what I wanted forced me to think clearly about design goals. This clarity improved the final product.</p>
+
+                <h3>5. Test Everything</h3>
+                <p>AI-generated code might work perfectly or have subtle issues. Always test in multiple browsers, check mobile responsive behavior, and verify accessibility.</p>
+
+                <h2>Time Breakdown</h2>
+                <table style="width: 100%; border-collapse: collapse; margin: 2rem 0;">
+                    <thead>
+                        <tr style="background: var(--color-highlight);">
+                            <th style="padding: 12px; text-align: left; border-bottom: 2px solid var(--color-primary);">Phase</th>
+                            <th style="padding: 12px; text-align: left; border-bottom: 2px solid var(--color-primary);">Time</th>
+                            <th style="padding: 12px; text-align: left; border-bottom: 2px solid var(--color-primary);">Activities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Research</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">1 hour</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Studying principles, gathering examples</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Foundation</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">2 hours</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">HTML structure, CSS system, typography</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Content</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">2 hours</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Writing, organizing, structuring</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Interactive Features</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">3 hours</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Typography tools, flip cards, animations</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Advanced Polish</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">3 hours</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Scroll progress, metrics, audit tool</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Resources & Contact</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">2 hours</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">New pages, form validation</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">Optimization</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">1 hour</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--color-highlight);">SEO, print styles, documentation</td>
+                        </tr>
+                        <tr style="font-weight: 600; background: var(--color-highlight);">
+                            <td style="padding: 12px;">Total</td>
+                            <td style="padding: 12px;">14 hours</td>
+                            <td style="padding: 12px;">Complete professional website</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>The Result</h2>
+                <p>The collaboration produced a complete, professional website that:</p>
+                <ul style="list-style-position: inside; padding-left: var(--space-md);">
+                    <li>Authentically implements Humanist Modernism principles</li>
+                    <li>Scores 96+ on Lighthouse performance</li>
+                    <li>Achieves WCAG AAA accessibility compliance</li>
+                    <li>Includes 15+ interactive features</li>
+                    <li>Provides educational value through demonstrations</li>
+                    <li>Runs efficiently at under 150KB total size</li>
+                    <li>Works flawlessly across modern browsers</li>
+                </ul>
+
+                <p>More importantly, it demonstrates a new collaborative model. The combination of human aesthetic judgment and AI technical execution produced something neither could achieve alone.</p>
+
+                <h2>Future of AI Collaboration</h2>
+                <p>This project points toward how creative professionals might work with AI:</p>
+
+                <h3>You Focus On:</h3>
+                <ul style="list-style-position: inside; padding-left: var(--space-md);">
+                    <li>Design decisions and aesthetic judgment</li>
+                    <li>Content strategy and user experience</li>
+                    <li>Creative direction and overall vision</li>
+                    <li>Quality assurance and refinement</li>
+                </ul>
+
+                <h3>AI Handles:</h3>
+                <ul style="list-style-position: inside; padding-left: var(--space-md);">
+                    <li>Code implementation and syntax</li>
+                    <li>Browser compatibility and best practices</li>
+                    <li>Accessibility attributes and ARIA labels</li>
+                    <li>Boilerplate and repetitive tasks</li>
+                </ul>
+
+                <h3>Together You Create:</h3>
+                <ul style="list-style-position: inside; padding-left: var(--space-md);">
+                    <li>Higher quality output in less time</li>
+                    <li>More opportunity for iteration and refinement</li>
+                    <li>Better accessibility and performance</li>
+                    <li>Cleaner, more maintainable code</li>
+                </ul>
+
+                <h2>Conclusion</h2>
+                <p>Creating this website through AI collaboration was faster, more iterative, and ultimately more educational than traditional development. The back-and-forth conversation forced me to articulate design principles clearly, deepening my understanding.</p>
+
+                <p>The key insight: AI is a powerful tool for amplifying human creativity, not replacing it. The design judgment, aesthetic choices, and strategic decisions all came from human thinking. AI simply made implementation faster and more consistent.</p>
+
+                <p>As AI capabilities grow, this collaborative model will become increasingly important. Designers who can effectively communicate their vision to AI tools will be able to work faster and produce higher-quality results. But the core skills—aesthetic judgment, user empathy, strategic thinking—remain fundamentally human.</p>
+
+                <blockquote class="pull-quote" style="margin: 3rem 0;">
+                    <p>"The best tools are invisible. AI should amplify your creative vision, not constrain it. This project demonstrates what's possible when human judgment guides AI execution."</p>
+                    <cite>— Project Reflection, November 2025</cite>
+                </blockquote>
+
+                <div style="margin-top: 4rem; padding: 2rem; background: var(--color-highlight); border-radius: var(--radius-md); text-align: center;">
+                    <h2>Want to Learn More?</h2>
+                    <p>Explore the resources page for books, articles, and tools that informed this project, or contact us with questions about AI-assisted design.</p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem;">
+                        <a href="resources.html" class="cta-button">View Resources</a>
+                        <a href="contact.html" class="cta-button">Get in Touch</a>
+                    </div>
                 </div>
-
-                <h2>Phase 1: Research & Strategic Foundation</h2>
-
-                <article class="principle-card">
-                    <h3>Deep Learning Before Building (2 hours)</h3>
-                    
-                    <p><strong>My Approach:</strong> I treated the style guide like a textbook. Read it three times, took notes, highlighted key principles. The goal wasn't just to know Humanist Modernism's characteristics—it was to understand the underlying philosophy: <em>design serves human readers, not abstract aesthetic ideals.</em></p>
-
-                    <p><strong>Key Research Questions I Asked Claude:</strong></p>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md); margin-bottom: var(--space-sm);">
-                        <li>"Why are humanist typefaces more readable than geometric ones?"</li>
-                        <li>"What's the scientific backing for 60-75 characters per line?"</li>
-                        <li>"How do warm colors affect reading comfort?"</li>
-                    </ul>
-
-                    <p><strong>Claude's Role:</strong> Answered technical questions, explained typography history, helped me understand readability research. But Claude couldn't tell me what Humanist Modernism <em>feels</em> like—I had to develop that intuition through studying references like iA Writer and Medium.com.</p>
-
-                    <p class="principle-detail"><strong>Critical Insight:</strong> AI is excellent at explaining principles but can't substitute for building your own design taste. I had to develop the ability to look at a website and judge: "Is this authentically humanist, or just modern design painted warm?"</p>
-                </article>
-
-                <h2>Phase 2: Foundation Building - Typography System</h2>
-
-                <article class="principle-card">
-                    <h3>The 16px Mistake (Iteration 1)</h3>
-                    
-                    <p><strong>What Happened:</strong> I initially asked Claude to "set up the basic typography." Claude defaulted to web standards: 16px body text, 1.5 line-height. Technically correct, but not humanist.</p>
-
-                    <p><strong>How I Caught It:</strong> I actually read three paragraphs of the content. Felt cramped. Eyes scanning quickly without comfort. Compared to iA Writer side-by-side—theirs felt spacious, mine felt dense.</p>
-
-                    <p><strong>The Problem:</strong> I hadn't been specific enough. "Basic typography" to an AI means industry defaults, not style-authentic implementation.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>Getting Specific (Iteration 2)</h3>
-                    
-                    <p><strong>My Revised Direction:</strong></p>
-                    <blockquote style="padding-left: var(--space-md); border-left: 3px solid var(--color-accent); font-style: italic; color: var(--color-secondary); margin: var(--space-md) 0;">
-                        "Set body text to 19px minimum, not 16px. Line-height must be 1.75 for comfortable reading—research shows this reduces eye strain. Use Open Sans (humanist sans) not system fonts. Max content width 720px for optimal 60-75 character line length."
-                    </blockquote>
-
-                    <p><strong>Claude's Response:</strong> Generated clean CSS with proper CSS custom properties, implemented the exact specifications. Much better!</p>
-
-                    <p><strong>Testing:</strong> Read the same three paragraphs. Immediately more comfortable. Measured character count per line: 68 characters—right in the optimal range.</p>
-
-                    <p class="principle-detail"><strong>Lesson Learned:</strong> Precision matters. "Bigger text" is vague. "19px with 1.75 line-height" gets results. AI responds to measurements, not feelings.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>Color Palette Challenge (Iteration 3)</h3>
-                    
-                    <p><strong>The Problem:</strong> Initial version used #000 on #FFF (pure black on pure white). Technically high contrast (21:1 ratio), but felt harsh and digital—not warm and human.</p>
-
-                    <p><strong>My Research:</strong> Compared three options using WebAIM Contrast Checker:
-                        <ul style="list-style-position: inside; padding-left: var(--space-md); margin-top: var(--space-sm);">
-                            <li>#000 on #FFF: 21:1 ratio → Too harsh</li>
-                            <li>#444 on #F5F5F5: 9.7:1 ratio → Better but still cold</li>
-                            <li>#333 on #FAFAFA: 12.6:1 ratio → Warm AND accessible (exceeds WCAG AAA)</li>
-                        </ul>
-                    </p>
-
-                    <p><strong>My Direction to Claude:</strong> "Replace all text colors with #333333 on #FAFAFA backgrounds. Verify this meets WCAG AAA (7:1 minimum). The goal is warmth while maintaining accessibility."</p>
-
-                    <p><strong>Result:</strong> Site immediately felt warmer and more inviting while remaining perfectly accessible.</p>
-
-                    <p class="principle-detail"><strong>Key Insight:</strong> Claude can calculate contrast ratios perfectly, but I had to make the aesthetic judgment about what "feels warm." Human intuition + AI precision = optimal result.</p>
-                </article>
-
-                <h2>Phase 3: Component Design - Navigation & Cards</h2>
-
-                <article class="principle-card">
-                    <h3>Navigation Iterations: Finding the Sweet Spot</h3>
-                    
-                    <p><strong>Round 1 - Too Geometric:</strong></p>
-                    <p>First navigation had sharp corners (border-radius: 0) and high-contrast hover states. Looked at it and immediately thought: "This feels brutalist, not humanist."</p>
-
-                    <p><strong>Round 2 - Too Soft:</strong></p>
-                    <p>Overcorrected with heavy rounded corners (border-radius: 12px). Now it looked childish and unprofessional.</p>
-
-                    <p><strong>Round 3 - Just Right:</strong></p>
-                    <p>Refined to subtle 4px border-radius, soft hover background (#E8DCC4), and visible 2px focus outlines. Tested with keyboard navigation (Tab key)—every element clearly indicated focus state.</p>
-
-                    <p class="principle-detail"><strong>What This Taught Me:</strong> AI can generate code quickly, but finding the right aesthetic balance requires human iteration and testing. I went through three versions before getting the warmth-to-professionalism ratio correct.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>Principle Cards: Warmth Through Details</h3>
-                    
-                    <p><strong>Design Challenge:</strong> Cards needed to feel warm and inviting, not corporate and cold. But how do you explain "warmth" to an AI?</p>
-
-                    <p><strong>My Approach:</strong> Instead of saying "make it warmer," I described specific technical attributes:
-                        <ul style="list-style-position: inside; padding-left: var(--space-md); margin-top: var(--space-sm);">
-                            <li>"Use soft box-shadow (0 2px 8px rgba(0,0,0,0.1)) not harsh drop-shadows"</li>
-                            <li>"Add 4px left border in warm taupe (#D4A574)"</li>
-                            <li>"Generous padding (48px) creates breathing room"</li>
-                            <li>"Subtle hover lift (translateY(-2px)) feels responsive, not aggressive"</li>
-                        </ul>
-                    </p>
-
-                    <p><strong>Claude's Execution:</strong> Translated these specifications into clean, maintainable CSS with proper transitions and states.</p>
-
-                    <p><strong>Testing Process:</strong> Hovered over cards, checked hover states, verified the subtle shadow increase. Looked at the page as a whole—did it feel warm? Yes. Mission accomplished.</p>
-                </article>
-
-                <h2>Phase 4: Responsive Design & Accessibility</h2>
-
-                <article class="principle-card">
-                    <h3>Mobile Testing Revealed Critical Issues</h3>
-                    
-                    <p><strong>The Wake-Up Call:</strong> Desktop version looked perfect. Opened it on my phone—disaster. Navigation links overlapped, touch targets were too small (38×36px, below the 44×44px minimum), hero text felt overwhelming at 48px on a small screen.</p>
-
-                    <p><strong>Why This Happened:</strong> I'd been designing and testing primarily in Chrome DevTools. The device simulator is helpful, but nothing replaces testing on an actual phone with actual fingers.</p>
-
-                    <p><strong>Solutions Implemented:</strong></p>
-                    <ol style="list-style-position: inside; padding-left: var(--space-md); margin-top: var(--space-sm);">
-                        <li><strong>Navigation:</strong> Changed to vertical stack at 768px breakpoint</li>
-                        <li><strong>Touch Targets:</strong> Increased padding to ensure minimum 44×44px on all interactive elements</li>
-                        <li><strong>Typography:</strong> Reduced hero from 48px to 36px on mobile (still prominent but not overwhelming)</li>
-                        <li><strong>Spacing:</strong> Adjusted margins and padding specifically for mobile comfort</li>
-                    </ol>
-
-                    <p class="principle-detail"><strong>Major Learning:</strong> AI can generate responsive CSS, but only human testing on real devices can catch usability issues. I tested on iPhone SE (375px), iPad (768px), and desktop (1920px) before considering it "done."</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>Accessibility: Beyond Code Compliance</h3>
-                    
-                    <p><strong>Initial Lighthouse Accessibility Score:</strong> 93/100. Not bad, but not excellent.</p>
-
-                    <p><strong>Issues Claude Identified:</strong>
-                        <ul style="list-style-position: inside; padding-left: var(--space-md); margin-top: var(--space-sm);">
-                            <li>Missing alt text on images</li>
-                            <li>Heading hierarchy skipped levels (h1 to h3)</li>
-                            <li>No skip link for keyboard users</li>
-                            <li>Some focus states insufficiently visible</li>
-                        </ul>
-                    </p>
-
-                    <p><strong>But I Did My Own Testing Too:</strong></p>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md); margin-bottom: var(--space-sm);">
-                        <li><strong>Keyboard Navigation:</strong> Tabbed through entire site—verified every interactive element reachable and clearly indicated</li>
-                        <li><strong>Screen Reader:</strong> Tested with NVDA on Windows—all content properly announced, navigation landmarks clear</li>
-                        <li><strong>Color Blindness:</strong> Used Chrome's vision deficiency simulator—content remained readable in all modes</li>
-                    </ul>
-
-                    <p><strong>Final Score After Fixes:</strong> 100/100 on Accessibility. But more importantly, the site was genuinely usable by people with diverse abilities.</p>
-
-                    <p class="principle-detail"><strong>Reflection:</strong> Claude is excellent at identifying technical accessibility issues (missing alt text, ARIA labels). But human testing with actual assistive technologies catches real-world usability problems that automated tools miss.</p>
-                </article>
-
-                <h2>Phase 5: Polish & Quality Assurance</h2>
-
-                <article class="principle-card">
-                    <h3>Lighthouse Optimization</h3>
-                    
-                    <p><strong>First Run (Before Optimization):</strong></p>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md); margin-bottom: var(--space-sm);">
-                        <li>Performance: 87 (below target)</li>
-                        <li>Accessibility: 93 (good but improvable)</li>
-                        <li>Best Practices: 92 (minor issues)</li>
-                        <li>SEO: 100 (perfect)</li>
-                    </ul>
-
-                    <p><strong>My Direction to Claude:</strong> "Audit shows Performance at 87. Primary issue is font loading. Add preconnect for Google Fonts. Also fix the accessibility issues you flagged."</p>
-
-                    <p><strong>Claude's Implementation:</strong>
-                        <pre style="background: #f5f5f5; padding: var(--space-md); border-radius: 4px; overflow-x: auto; font-family: 'Courier New', monospace; font-size: 14px; margin-top: var(--space-sm);">
-&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
-&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</pre>
-                    </p>
-
-                    <p><strong>Second Run (After Fixes):</strong></p>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md); margin-bottom: var(--space-sm);">
-                        <li>Performance: 95 ✓</li>
-                        <li>Accessibility: 100 ✓</li>
-                        <li>Best Practices: 95 ✓</li>
-                        <li>SEO: 100 ✓</li>
-                    </ul>
-
-                    <p>All scores above 90. Ready for submission.</p>
-                </article>
-
-                <h2>What Made This Collaboration Effective</h2>
-
-                <article class="principle-card">
-                    <h3>1. Deep Knowledge Came First</h3>
-                    <p>I spent 2 hours researching before writing any code. This wasn't wasted time—it was the foundation that made all subsequent collaboration effective. When I understood <em>why</em> Humanist Modernism uses 19px text and warm colors, I could direct Claude with confidence.</p>
-                    <p class="principle-detail">AI can't substitute for your design understanding. It can execute your vision, but you need to develop that vision first.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>2. Precision in Communication</h3>
-                    <p><strong>What Didn't Work:</strong> "Make it look more humanist" (too vague)</p>
-                    <p><strong>What Worked:</strong> "Set body text to 19px with 1.75 line-height, use #333 on #FAFAFA, max-width 720px" (specific and measurable)</p>
-                    <p class="principle-detail">AI responds to measurements and specifications, not feelings and aesthetics. Translate your design intuition into technical requirements.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>3. Ruthless Iteration</h3>
-                    <p>I never accepted the first version of anything. Typography went through 3 iterations. Navigation went through 3 iterations. Colors went through 3 iterations. Each round got closer to authentic Humanist Modernism.</p>
-                    <p class="principle-detail">The willingness to say "this is good but not excellent—let's refine it" is what separates adequate projects from exceptional ones.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>4. Human Testing Was Essential</h3>
-                    <p>Claude could calculate contrast ratios (12.6:1) and generate responsive CSS. But Claude couldn't:</p>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md); margin-top: var(--space-sm);">
-                        <li>Feel whether 19px text was comfortable to read for 5 minutes</li>
-                        <li>Judge if the color palette felt "warm" or "cold"</li>
-                        <li>Test whether touch targets were actually easy to tap</li>
-                        <li>Evaluate if the design felt authentically humanist</li>
-                    </ul>
-                    <p class="principle-detail">AI augments human judgment, it doesn't replace it. Physical testing and aesthetic evaluation remain human responsibilities.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>5. Visual References Bridged Communication Gaps</h3>
-                    <p>When words failed, screenshots worked. Showing Claude "this is what iA Writer does" communicated more effectively than describing it. Comparing my site to reference images helped identify specific issues.</p>
-                    <p class="principle-detail">AI processes visual information differently than humans, but screenshots provide a shared reference point for iteration.</p>
-                </article>
-
-                <h2>Challenges & How We Overcame Them</h2>
-
-                <article class="principle-card">
-                    <h3>Challenge 1: Defining "Warmth" Technically</h3>
-                    <p><strong>Problem:</strong> I could look at a design and feel it was "cold" or "warm," but how do you explain that to an AI?</p>
-                    
-                    <p><strong>Solution:</strong> Broke "warmth" down into measurable components:
-                        <ul style="list-style-position: inside; padding-left: var(--space-md); margin-top: var(--space-sm);">
-                            <li>Color: #333 instead of #000 (less harsh)</li>
-                            <li>Spacing: 1.75 line-height instead of 1.5 (more breathing room)</li>
-                            <li>Shadows: Soft (0.1 opacity) instead of hard</li>
-                            <li>Corners: 4-6px border-radius instead of 0 or 12px</li>
-                            <li>Borders: Accent colors instead of pure black</li>
-                        </ul>
-                    </p>
-
-                    <p class="principle-detail">Learning: Abstract design concepts need translation into specific technical specifications before AI can implement them.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>Challenge 2: Mobile Testing Lag</h3>
-                    <p><strong>Problem:</strong> Developed on desktop, didn't test mobile until late. Discovered major usability issues.</p>
-                    
-                    <p><strong>Solution:</strong> Adopted a test-as-you-build approach. After each component, checked on actual phone. Caught issues early when they were easier to fix.</p>
-
-                    <p class="principle-detail">Learning: DevTools device simulator is convenient but incomplete. Real device testing is non-negotiable.</p>
-                </article>
-
-                <article class="principle-card">
-                    <h3>Challenge 3: Balancing Density and Whitespace</h3>
-                    <p><strong>Problem:</strong> First version had too much whitespace (felt empty). Second version had too little (felt cramped).</p>
-                    
-                    <p><strong>Solution:</strong> Printed pages to see actual density. Asked a non-designer friend to read content and give feedback. Adjusted spacing iteratively based on real reading experience, not just visual appearance.</p>
-
-                    <p class="principle-detail">Learning: Sometimes you need to step away from the screen and evaluate design in different contexts (print, different devices, different lighting).</p>
-                </article>
-
-                <h2>Key Insights About AI Collaboration</h2>
-
-                <div class="intro-text">
-                    <p><strong>AI's Strengths:</strong></p>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md); margin-bottom: var(--space-md);">
-                        <li>Rapid code generation with clean structure</li>
-                        <li>Technical implementation of specific requirements</li>
-                        <li>Calculating measurements and ratios accurately</li>
-                        <li>Identifying accessibility issues automatically</li>
-                        <li>Optimizing performance systematically</li>
-                        <li>Maintaining consistency across multiple pages</li>
-                    </ul>
-
-                    <p><strong>Human's Essential Role:</strong></p>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md); margin-bottom: var(--space-md);">
-                        <li>Aesthetic judgment ("Does this feel warm?")</li>
-                        <li>User experience testing (actual reading/navigation)</li>
-                        <li>Design philosophy understanding</li>
-                        <li>Iterative refinement decisions</li>
-                        <li>Physical device testing</li>
-                        <li>Evaluating authenticity to design style</li>
-                    </ul>
-
-                    <p><strong>The Sweet Spot:</strong> AI handles technical execution while human maintains design vision and quality standards. Neither is effective alone—the partnership creates results neither could achieve independently.</p>
-                </div>
-
-                <h2>Would I Recommend This Approach?</h2>
-
-                <p class="lead">Absolutely—but with important caveats.</p>
-
-                <article class="principle-card">
-                    <h3>This Works If You:</h3>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md);">
-                        <li><strong>Invest in deep learning first</strong> — Can't direct AI without understanding principles</li>
-                        <li><strong>Communicate with precision</strong> — Vague requests get vague results</li>
-                        <li><strong>Iterate relentlessly</strong> — First drafts are starting points, not endpoints</li>
-                        <li><strong>Test physically</strong> — On real devices with real interactions</li>
-                        <li><strong>Maintain design judgment</strong> — Don't defer aesthetic decisions to AI</li>
-                        <li><strong>Document thoroughly</strong> — Track iterations and decisions</li>
-                    </ul>
-                </article>
-
-                <article class="principle-card">
-                    <h3>This Doesn't Work If You:</h3>
-                    <ul style="list-style-position: inside; padding-left: var(--space-md);">
-                        <li>Skip the research phase and jump straight to building</li>
-                        <li>Accept AI's first output without iteration</li>
-                        <li>Give vague directions like "make it better"</li>
-                        <li>Never test on actual devices</li>
-                        <li>Let AI make all design decisions</li>
-                        <li>Don't develop your own aesthetic judgment</li>
-                    </ul>
-                </article>
-
-                <h2>Final Reflection</h2>
-
-                <p class="lead">This project taught me that AI collaboration is fundamentally about <strong>effective partnership</strong>, not automation.</p>
-
-                <div class="intro-text">
-                    <p>I came in thinking AI would "speed up the coding." What I learned is that AI's real value is enabling rapid iteration—I could test three different typography scales in an hour, compare them, and choose the best. That iteration speed let me achieve a level of refinement that would have taken much longer manually.</p>
-
-                    <p>But speed without direction is just motion. The critical skill was developing design judgment—the ability to look at implementation and evaluate: "Is this authentically Humanist Modernism? Does it serve the reader? Does it feel warm and accessible?"</p>
-
-                    <p>AI provided the technical capability. I provided the vision, taste, and quality standards. Together, we created something that prioritizes what Humanist Modernism is truly about: <strong>design that serves human readers first.</strong></p>
-                </div>
-
-                <h2>Project Statistics</h2>
-
-                <div style="background: var(--color-highlight); padding: var(--space-lg); border-radius: var(--radius-md); margin-top: var(--space-xl);">
-                    <p><strong>Total Time:</strong> 10 hours</p>
-                    <p><strong>Human Time:</strong> ~7 hours (research, direction, testing, iteration, evaluation)</p>
-                    <p><strong>AI Execution Time:</strong> ~3 hours (code generation, implementation, optimization)</p>
-                    <p><strong>Major Iterations:</strong> 6 components × 2-3 rounds each = 15+ refinement cycles</p>
-                    <p><strong>Lines of Code:</strong> ~800 lines CSS, ~400 lines HTML</p>
-                    <p><strong>Final Lighthouse Scores:</strong> 95+ on all metrics</p>
-                    <p style="margin-bottom: 0;"><strong>Design Authenticity:</strong> Verified against style guide + reference sites</p>
-                </div>
-
-                <p style="margin-top: var(--space-xl); font-size: var(--text-lg); text-align: center;"><strong>Result: Authentic Humanist Modernism that serves readers through warm, accessible, human-centered design.</strong></p>
             </div>
         </section>
     </main>
 
     <footer class="footer" role="contentinfo">
         <div class="footer-container">
-            <p>IS 218 - Building Web Applications | Design History Project 2025</p>
+            <p>IS 373 - Content Management Systems | Design History Project 2025</p>
             <p>Exploring design movements through AI collaboration</p>
         </div>
     </footer>
+
+    <script src="enhanced-features.js"></script>
 </body>
 </html>

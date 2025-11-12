@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with questions, feedback, or suggestions about Humanist Modernism design principles.">
+    
+    <!-- SEO & Social Media Meta Tags -->
+    <meta property="og:title" content="Contact - Humanist Modernism">
+    <meta property="og:description" content="Send us your questions, feedback, or suggestions about Humanist Modernism.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yoursite.com/contact.html">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact - Humanist Modernism",
+      "description": "Contact form for questions and feedback about Humanist Modernism",
+      "url": "https://yoursite.com/contact.html"
+    }
+    </script>
+    
+    <title>Contact - Humanist Modernism</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta name="theme-color" content="#2C5F8D">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav class="main-nav" role="navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Humanist Modernism</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="designers.html">Designers</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Get in Touch</h1>
+                <p class="hero-subtitle">Questions, feedback, or suggestions? We'd love to hear from you</p>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="content-container">
+                <div style="max-width: 680px; margin: 0 auto;">
+                    <p class="lead">Have questions about Humanist Modernism? Want to suggest a resource or report an issue? Fill out the form below and we'll get back to you.</p>
+
+                    <!-- Contact Form -->
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <label for="name">
+                                Name <span class="required" aria-label="required">*</span>
+                            </label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                required 
+                                minlength="2"
+                                maxlength="100"
+                                aria-required="true"
+                                aria-describedby="name-error">
+                            <span id="name-error" class="error-message" role="alert"></span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group">
+                            <label for="email">
+                                Email <span class="required" aria-label="required">*</span>
+                            </label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required
+                                aria-required="true"
+                                aria-describedby="email-error"
+                                placeholder="your.email@example.com">
+                            <span id="email-error" class="error-message" role="alert"></span>
+                        </div>
+
+                        <!-- Subject Field -->
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject <span class="required" aria-label="required">*</span>
+                            </label>
+                            <select 
+                                id="subject" 
+                                name="subject" 
+                                required
+                                aria-required="true"
+                                aria-describedby="subject-error">
+                                <option value="">-- Please select --</option>
+                                <option value="question">Question about Humanist Modernism</option>
+                                <option value="resource">Resource suggestion</option>
+                                <option value="feedback">Website feedback</option>
+                                <option value="collaboration">Collaboration inquiry</option>
+                                <option value="bug">Report a bug or issue</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span id="subject-error" class="error-message" role="alert"></span>
+                        </div>
+
+                        <!-- Message Field -->
+                        <div class="form-group">
+                            <label for="message">
+                                Message <span class="required" aria-label="required">*</span>
+                            </label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                rows="6" 
+                                required
+                                minlength="10"
+                                maxlength="1000"
+                                aria-required="true"
+                                aria-describedby="message-error message-counter"
+                                placeholder="Tell us what's on your mind..."></textarea>
+                            <div class="form-helper">
+                                <span id="message-error" class="error-message" role="alert"></span>
+                                <span id="message-counter" class="character-counter">0 / 1000 characters</span>
+                            </div>
+                        </div>
+
+                        <!-- Honeypot (spam prevention) -->
+                        <div class="honeypot" aria-hidden="true">
+                            <label for="website">Website (leave blank)</label>
+                            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-actions">
+                            <button type="submit" class="cta-button">
+                                <span class="button-text">Send Message</span>
+                                <span class="button-loading" style="display: none;">Sending...</span>
+                            </button>
+                            <button type="reset" class="button-secondary">Clear Form</button>
+                        </div>
+
+                        <!-- Success/Error Messages -->
+                        <div id="form-success" class="form-message success-message" role="status" style="display: none;">
+                            <strong>✓ Message sent successfully!</strong>
+                            <p>Thank you for reaching out. We'll respond to your message as soon as possible.</p>
+                        </div>
+
+                        <div id="form-error" class="form-message error-message-box" role="alert" style="display: none;">
+                            <strong>⚠ Oops! Something went wrong.</strong>
+                            <p>Please check the form for errors and try again.</p>
+                        </div>
+                    </form>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h2>Other Ways to Connect</h2>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <h3>📧 Email</h3>
+                                <p>Prefer email? You can reach us directly at:</p>
+                                <p><strong>contact@humanistmodernism.edu</strong></p>
+                            </div>
+
+                            <div class="info-card">
+                                <h3>🏫 Academic Inquiries</h3>
+                                <p>For questions related to IS 218 coursework:</p>
+                                <p><strong>NJIT Information Systems Department</strong></p>
+                            </div>
+
+                            <div class="info-card">
+                                <h3>🐛 Found a Bug?</h3>
+                                <p>If you've discovered an accessibility issue or technical bug, please provide:</p>
+                                <ul style="list-style-position: inside; margin-top: 0.5rem;">
+                                    <li>Browser and version</li>
+                                    <li>Steps to reproduce</li>
+                                    <li>Screenshots (if applicable)</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-card">
+                                <h3>💡 Suggestions Welcome</h3>
+                                <p>Have ideas for improving this site or additional resources to share? We'd love to hear them!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ -->
+                    <div style="margin-top: 3rem; padding: 2rem; background: var(--color-highlight); border-radius: var(--radius-md);">
+                        <h2>Frequently Asked Questions</h2>
+                        
+                        <details style="margin-top: 1rem;">
+                            <summary style="font-weight: 600; cursor: pointer; padding: 0.5rem 0;">How quickly will I receive a response?</summary>
+                            <p style="margin: 0.5rem 0 0 1rem;">We typically respond within 2-3 business days. For urgent issues, please indicate this in your message.</p>
+                        </details>
+
+                        <details style="margin-top: 1rem;">
+                            <summary style="font-weight: 600; cursor: pointer; padding: 0.5rem 0;">Can I suggest resources for the Resources page?</summary>
+                            <p style="margin: 0.5rem 0 0 1rem;">Absolutely! Use the "Resource suggestion" option in the subject dropdown and provide the resource name, author, and why you recommend it.</p>
+                        </details>
+
+                        <details style="margin-top: 1rem;">
+                            <summary style="font-weight: 600; cursor: pointer; padding: 0.5rem 0;">Is this form secure?</summary>
+                            <p style="margin: 0.5rem 0 0 1rem;">Yes! This form includes client-side validation and honeypot spam protection. In a production environment, it would use server-side validation and encryption.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <p>IS 373 - Content Management Systems | Design History Project 2025</p>
+            <p>Exploring design movements through AI collaboration</p>
+        </div>
+    </footer>
+
+    <!-- Contact Form JavaScript -->
+    <script>
+        // Contact Form Validation and Handling
+        (function() {
+            const form = document.getElementById('contact-form');
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const subjectInput = document.getElementById('subject');
+            const messageInput = document.getElementById('message');
+            const honeypot = document.getElementById('website');
+            const messageCounter = document.getElementById('message-counter');
+            const successMessage = document.getElementById('form-success');
+            const errorMessage = document.getElementById('form-error');
+
+            // Character counter for message
+            messageInput.addEventListener('input', function() {
+                const length = this.value.length;
+                messageCounter.textContent = `${length} / 1000 characters`;
+                
+                if (length > 900) {
+                    messageCounter.style.color = '#856404';
+                } else {
+                    messageCounter.style.color = 'var(--color-secondary)';
+                }
+            });
+
+            // Real-time validation
+            function validateField(field) {
+                const errorSpan = document.getElementById(field.id + '-error');
+                let isValid = true;
+                let errorMsg = '';
+
+                // Check if field is empty
+                if (field.hasAttribute('required') && !field.value.trim()) {
+                    isValid = false;
+                    errorMsg = 'This field is required.';
+                }
+                // Email validation
+                else if (field.type === 'email' && field.value) {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(field.value)) {
+                        isValid = false;
+                        errorMsg = 'Please enter a valid email address.';
+                    }
+                }
+                // Name length validation
+                else if (field.id === 'name' && field.value.length < 2) {
+                    isValid = false;
+                    errorMsg = 'Name must be at least 2 characters.';
+                }
+                // Message length validation
+                else if (field.id === 'message' && field.value.length < 10) {
+                    isValid = false;
+                    errorMsg = 'Message must be at least 10 characters.';
+                }
+
+                // Display error
+                if (isValid) {
+                    field.classList.remove('invalid');
+                    field.classList.add('valid');
+                    errorSpan.textContent = '';
+                } else {
+                    field.classList.remove('valid');
+                    field.classList.add('invalid');
+                    errorSpan.textContent = errorMsg;
+                }
+
+                return isValid;
+            }
+
+            // Validate on blur
+            [nameInput, emailInput, subjectInput, messageInput].forEach(field => {
+                field.addEventListener('blur', function() {
+                    validateField(this);
+                });
+
+                // Clear error on focus
+                field.addEventListener('focus', function() {
+                    const errorSpan = document.getElementById(this.id + '-error');
+                    errorSpan.textContent = '';
+                    this.classList.remove('invalid');
+                });
+            });
+
+            // Form submission
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                // Hide previous messages
+                successMessage.style.display = 'none';
+                errorMessage.style.display = 'none';
+
+                // Check honeypot (spam prevention)
+                if (honeypot.value !== '') {
+                    console.log('Spam detected');
+                    return false;
+                }
+
+                // Validate all fields
+                const isNameValid = validateField(nameInput);
+                const isEmailValid = validateField(emailInput);
+                const isSubjectValid = validateField(subjectInput);
+                const isMessageValid = validateField(messageInput);
+
+                if (isNameValid && isEmailValid && isSubjectValid && isMessageValid) {
+                    // Show loading state
+                    const submitButton = form.querySelector('button[type="submit"]');
+                    const buttonText = submitButton.querySelector('.button-text');
+                    const buttonLoading = submitButton.querySelector('.button-loading');
+                    
+                    submitButton.disabled = true;
+                    buttonText.style.display = 'none';
+                    buttonLoading.style.display = 'inline';
+
+                    // Simulate form submission (in production, this would send to server)
+                    setTimeout(function() {
+                        // Reset button
+                        submitButton.disabled = false;
+                        buttonText.style.display = 'inline';
+                        buttonLoading.style.display = 'none';
+
+                        // Show success message
+                        successMessage.style.display = 'block';
+                        successMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+                        // Reset form
+                        form.reset();
+                        messageCounter.textContent = '0 / 1000 characters';
+                        
+                        // Clear validation classes
+                        [nameInput, emailInput, subjectInput, messageInput].forEach(field => {
+                            field.classList.remove('valid', 'invalid');
+                        });
+
+                        // Log form data (in production, this would be sent to server)
+                        console.log('Form submitted:', {
+                            name: nameInput.value,
+                            email: emailInput.value,
+                            subject: subjectInput.value,
+                            message: messageInput.value,
+                            timestamp: new Date().toISOString()
+                        });
+                    }, 1500);
+                } else {
+                    // Show error message
+                    errorMessage.style.display = 'block';
+                    errorMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            });
+
+            // Reset button
+            form.addEventListener('reset', function() {
+                setTimeout(function() {
+                    successMessage.style.display = 'none';
+                    errorMessage.style.display = 'none';
+                    messageCounter.textContent = '0 / 1000 characters';
+                    
+                    // Clear all error messages
+                    document.querySelectorAll('.error-message').forEach(span => {
+                        span.textContent = '';
+                    });
+                    
+                    // Clear validation classes
+                    [nameInput, emailInput, subjectInput, messageInput].forEach(field => {
+                        field.classList.remove('valid', 'invalid');
+                    });
+                }, 0);
+            });
+        })();
+    </script>
+
+    <script src="enhanced-features.js"></script>
+</body>
+</html>
